@@ -1,21 +1,34 @@
 .App {
   text-align: center;
+  background-image: url(./포치포치.gif);
+}
+h1 {
+  padding: 30px;
 }
 div {
   box-sizing: border-box;
 }
-
-.black-nav {
-  display: flex;
-  background-color: black;
-  width: 100%;
-  color: white;
-  padding: 20px;
+.Home {
+  background-image: url(./포치포치.gif);
 }
 .list {
   padding: 20px;
   text-align: left;
   border-bottom: 1px solid gray;
+}
+.modal {
+  margin-top: 2opx;
+  padding: 20px;
+  background-color: #282c34;
+  color: aliceblue;
+  text-align: left;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
