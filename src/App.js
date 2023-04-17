@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Diary from "./pages/Diary";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Loby from "./pages/Loby";
+import Blog from "./pages/Blog";
 const App = () => {
   return (
     <div>
@@ -10,7 +10,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/Diary" element={<Diary />} />
         <Route path="/Login" element={<Login />} />
-        <Route path="/Loby" element={<Loby />} />
+        <Route path="/Blog" element={<Blog />} />
       </Routes>
     </div>
   );
